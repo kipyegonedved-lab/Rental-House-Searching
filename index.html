@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Project Card</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f7fa;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .card {
+      max-width: 450px;
+      background: white;
+      border-radius: 20px;
+      overflow: hidden;
+      margin: 0 auto;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .card img {
+      width: 100%;
+      height: 230px;
+      object-fit: cover;
+    }
+
+    .content {
+      padding: 20px;
+      background: linear-gradient(135deg, #00c6ff, #00f2fe);
+      border-radius: 0 0 20px 20px;
+      color: #fff;
+    }
+
+    .content h2 {
+      margin: 0 0 10px;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .content p {
+      font-size: 15px;
+      margin: 10px 0;
+      color: white;
+    }
+
+    .slow {
+      color: #aaffaa;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .tags {
+      margin-top: 10px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: rgba(255, 255, 255, 0.9);
+      color: #333;
+      padding: 6px 12px;
+      margin: 4px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: bold;
+    }
+
+    .links {
+      margin-top: 20px;
+    }
+
+    .links a {
+      text-decoration: none;
+      font-weight: bold;
+      margin-right: 20px;
+      color: #ffcc66;
+      background: rgba(255,255,255,0.2);
+      padding: 8px 12px;
+      border-radius: 10px;
+    }
+
+    .links a:hover {
+      background: rgba(255,255,255,0.4);
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1502672023488-70e25813eb80" alt="Rental House" />
+
+    <div class="content">
+      <h2>Rental House Searching</h2>
+
+      <p>Find houses easily with verified listings, trusted agents, smart filters, and seamless home hunting tools.</p>
+
+      <p class="slow">Might be slow to load because it is hosted on a free plan and has many features.</p>
+
+      <div class="tags">
+        <span class="tag">Vercel</span>
+        <span class="tag">MongoDB</span>
+        <span class="tag">React</span>
+        <span class="tag">Node.js</span>
+        <span class="tag">Socket.io</span>
+        <span class="tag">Brevo</span>
+        <span class="tag">Google Cloud Storage</span>
+        <span class="tag">Google Maps API</span>
+      </div>
+
+      <div class="links">
+        <a href="#">GitHub</a>
+        <a href="#">Live Demo</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
